@@ -1,7 +1,7 @@
 use near_sdk::{env, near_bindgen, AccountId, Balance, Promise};
 
-const INITIAL_BALANCE: Balance = 3_800_000_000_000_000_000_000_000; // 1e24yN, 3.8N
-const CODE: &[u8] = include_bytes!("./wasm/rust_changeback.wasm");
+const INITIAL_BALANCE: Balance = 2_50_000_000_000_000_000_000_000; // 1e24yN, 0.25N
+const CODE: &[u8] = include_bytes!("./wasm/rust-changeback.wasm");
 
 #[near_bindgen]
 pub struct Contract {}
